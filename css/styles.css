@@ -1,0 +1,139 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+
+/* Base body styles */
+body {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 25px solid #2b81ac;
+  background-color: #3399cc;
+  padding: 66px 137px;
+}
+
+/* Header */
+.header__title {
+  font-size: 21px;
+}
+
+.header__title .wi {
+  font-size: 27px;
+  width: 35px;
+  height: 34px;
+}
+
+/* Footer */
+.footer__text {
+  font-size: 16px;
+}
+
+/* Weather block */
+.weather__list {
+  max-width: 1166px;
+  margin: 37px auto;
+  font-size: 0;
+}
+
+.weather__item {
+  display: inline-block;
+  width: 25%; /* default — can be overwritten by .half or .full */
+  border: 2px solid #fff;
+  padding: 26px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+
+.weather__link {
+  color: inherit;
+  transition: all 0.1s ease-in;
+}
+
+.weather__link:hover,
+.weather__link:focus {
+  cursor: url("/icon/cursor.svg"), auto;
+  opacity: 0.7;
+}
+
+.weather__city {
+  margin-bottom: 4px;
+}
+
+.weather__temp {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: normal;
+}
+
+.weather__temp .wi {
+  font-size: 42px;
+  margin-left: 11px;
+  vertical-align: middle;
+}
+
+/* Layout size */
+.full {
+  width: 100%;
+}
+.half {
+  width: 50%;
+}
+.quarter {
+  width: 25%;
+}
+
+/* Color modifiers */
+.blue {
+  background-color: #39c;
+}
+.cyan {
+  background-color: #3cc;
+}
+.purple {
+  background-color: #996699;
+}
+.red {
+  background-color: #c24747;
+}
+.coral {
+  background-color: #e2674a;
+}
+.goldenrod {
+  background-color: #ffcc66;
+}
+.mint-gray {
+  background-color: #99cc99;
+}
+.desaturated-cyan {
+  background-color: #669999;
+}
+.mulberry-pink {
+  background-color: #cc6699;
+}
+.medium-green {
+  background-color: #339966;
+}
+.lavender-gray {
+  background-color: #666699;
+}
