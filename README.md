@@ -8,4 +8,5 @@
 Для ефекту зміни прозорості використовуємо :hover і opacity
 Для плавних анімацій використовуємо CSS-код: *{transition: all .1s ease-in;}
 
-Макет в Figma : ![Main](https://github.com/user-attachments/assets/cc46855f-e484-425b-933b-2103c3470b37)
+Макет в Figma : 
+![Main](https://github.com/user-attachments/assets/ec909577-b26b-42c7-a1d4-1a15af7c9d58)
