@@ -69,11 +69,11 @@ body {
 .weather__link {
   color: inherit;
   transition: all 0.1s ease-in;
+  cursor: url("/icon/cursor.svg"), auto;
 }
 
 .weather__link:hover,
 .weather__link:focus {
-  cursor: url("/icon/cursor.svg"), auto;
   opacity: 0.7;
 }
 
