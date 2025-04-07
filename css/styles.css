@@ -74,7 +74,7 @@ body {
 .weather__link:hover,
 .weather__link:focus {
   opacity: 0.7;
-  cursor: url("/icon/cursor.svg"), auto;
+ cursor: url("https://anton-onyshchenko.github.io/Weather-Fortcast/icon/cursor.svg"), auto;
 }
 
 .weather__city {
